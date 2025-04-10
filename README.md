@@ -37,7 +37,6 @@ Sistem manajemen tugas dengan fitur perhitungan remunerasi karyawan berdasarkan 
 ```bash
 cd backend
 composer install
-cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
@@ -47,7 +46,6 @@ php artisan serve
 ```bash
 cd frontend
 npm install
-cp .env.example .env
 npm run dev
 ```
 
@@ -72,7 +70,7 @@ DB_PASSWORD=
 |-----------------------------|-----------------------------------------------------------------|
 | Distribusi adil biaya       | Hitung berdasarkan persentase jam kerja                         |
 | Sinkronisasi data frontend  | Pakai Vuex + optimistic update                                  |
-| Validasi data               | Validasi di frontend & backend + transaksi database             |
+| Validasi data               | Validasi di frontend & backend             |
 | Performa loading data       | Pagination + lazy loading + caching                             |
 | Error Handling              | Tampilkan pesan error yang user-friendly, log error di server   |
 | Responsivitas UI            | Gunakan CSS framework responsif seperti Tailwind                |
