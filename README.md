@@ -66,7 +66,7 @@ DB_PASSWORD=
 
 ## Tantangan & Solusi
 
-|-----------------------------------------------------------------------------------------------|
+
 | Tantangan                  | Solusi                                                           |
 |-----------------------------|-----------------------------------------------------------------|
 | Distribusi adil biaya       | Hitung berdasarkan persentase jam kerja                         |
@@ -79,7 +79,7 @@ DB_PASSWORD=
 | Skala Data Besar            | Optimasi query database, gunakan indexing                       |
 | Monitoring & Logging        | Integrasi dengan tools monitoring seperti Sentry atau LogRocket |
 | Deployment CI/CD            | Otomasi deployment menggunakan GitHub Actions atau GitLab CI    |
-|-----------------------------------------------------------------------------------------------|
+
 
 ### Tantangan Tambahan
 
